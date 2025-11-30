@@ -1,0 +1,101 @@
+/* Styles généraux du corps et du texte */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Style de l'Entête (Header) */
+header {
+    background-color: #007bff; /* Bleu vif */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Style de la Grille de Produits */
+.product-grid {
+    display: flex; /* Active la flexbox pour aligner les cartes */
+    flex-wrap: wrap; /* Permet aux cartes de passer à la ligne */
+    justify-content: center; /* Centre les cartes horizontalement */
+    padding: 20px;
+    gap: 20px; /* Espace entre les cartes */
+}
+
+/* Style d'une Carte Produit individuelle */
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px; /* Largeur fixe pour la carte */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.product-card h2 {
+    font-size: 1.5em;
+    color: #007bff;
+}
+
+.product-card .price {
+    font-size: 1.8em;
+    color: #28a745; /* Vert pour le prix */
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.product-card .description {
+    font-size: 0.9em;
+    color: #666;
+    height: 40px; /* Hauteur fixe pour la description */
+    margin-bottom: 15px;
+}
+
+/* Style du Bouton "Ajouter au Panier" */
+.add-to-cart {
+    background-color: #ffc107; /* Jaune/Orange pour le bouton */
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: #e0a800; /* Assombrir au survol */
+}
+
+/* Style du Pied de Page (Footer) */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+}
+
+
